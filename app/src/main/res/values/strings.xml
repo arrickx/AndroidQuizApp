@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">AndroidQuizApp</string>
+    <string name="question_1">No.1 What is OOP?</string>
+    <string name="question_1_a">a. Object-operation programming</string>
+    <string name="question_1_b">b. Object-oriented programming</string>
+    <string name="question_1_c">c. Original-operation programming</string>
+    <string name="question_1_d">d. Online-operation programing</string>
+    <string name="question_2">No.2 The operating system Android is based on?</string>
+    <string name="question_2_a">a. windows</string>
+    <string name="question_2_b">b. java</string>
+    <string name="question_2_c">c. linux</string>
+    <string name="question_2_d">d. xml</string>
+    <string name="question_3">No.3 What is the market share of Android OS?</string>
+    <string name="question_3_a">a. 50%</string>
+    <string name="question_3_b">b. 60%</string>
+    <string name="question_3_c">c. 70%</string>
+    <string name="question_3_d">d. 80%</string>
+    <string name="question_4">No.4 Which of the following are in Android version history?
+        \n (Please select all that apply)
+    </string>
+    <string name="question_4_a">a. Ice Cream</string>
+    <string name="question_4_b">b. KitKat</string>
+    <string name="question_4_c">c. Marshmallow</string>
+    <string name="question_4_d">d. Oreo</string>
+    <string name="question_5">No.5 Which of the following company did google merge?
+        \n (Please select all that apply)
+    </string>
+    <string name="question_5_a">a. Netflix</string>
+    <string name="question_5_b">b. Android Inc.</string>
+    <string name="question_5_c">c. Tesla</string>
+    <string name="question_5_d">d. YouTube</string>
+    <string name="question_6">No.6 Which one is the android logo?</string>
+    <string name="question_6_a">a. </string>
+    <string name="question_6_b">b. </string>
+    <string name="question_6_c">c. </string>
+    <string name="question_6_d">d. </string>
+    <string name="question_7">What\'s your name?</string>
+    <string name="submit_button">submit</string>
+    <string name="test">this is a test message</string>
+    <string name="reset_button">reset</string>
+    <string name="noName">Anonymous</string>
+
 </resources>
