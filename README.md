@@ -1,6 +1,6 @@
 # AndroidQuizApp
 * A scrollable single-screen quiz app that can give you score.
-* [![Image](gif/1.gif)](Image)
+> [![Image](gif/1.gif)](Image)
 
 ## Getting Started
 
