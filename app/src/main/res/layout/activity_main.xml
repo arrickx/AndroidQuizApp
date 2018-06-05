@@ -220,8 +220,7 @@
 
             <TextView
                 android:id="@+id/finalScoreMessage"
-                style="@style/resultPage"
-                android:text="@string/test" />
+                style="@style/resultPage" />
 
             <ImageView
                 android:layout_width="wrap_content"

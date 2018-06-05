@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * This app create a quiz app that can submit answer and shows the score.
@@ -74,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
         boolean q4Correct3 = q4Answer3.isChecked();
         boolean q5Correct1 = q5Answer1.isChecked();
         boolean q5Correct2 = q5Answer2.isChecked();
-        userName = nameInput.getText().toString();
 
         if (q1Correct) {
             finalScore += 1;
@@ -94,9 +94,10 @@ public class MainActivity extends AppCompatActivity {
         if (q5Correct1 && q5Correct2) {
             finalScore += 1;
         }
-        if (userName.isEmpty()) {
+        if (nameInput.getText().toString().isEmpty())
             userName = getString(R.string.noName);
-        }
+        else
+            userName = nameInput.getText().toString();
 
         float scoreInHundred = (float) (finalScore) / totalQuestion * 100;
         String scoreTwoDigit = String.format("%.02f", scoreInHundred);
@@ -113,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         answerVerification();
         questionsPage.setVisibility(View.GONE);
         resultPage.setVisibility(View.VISIBLE);
-        finalScoreMessage.setText(finalMessage);
+        Toast.makeText(this, finalMessage, Toast.LENGTH_LONG).show();
     }
 
     /**
